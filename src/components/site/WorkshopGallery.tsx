@@ -46,7 +46,7 @@ export function WorkshopGallery() {
               </span>
               <h3 className="font-display text-3xl mb-4">{workshops[0].title}</h3>
               <div className="flex flex-wrap gap-3">
-                {workshops[0].tags.map((tag) => (
+                {workshops[0].tags.map((tag: string) => (
                   <span
                     key={tag}
                     className="px-3 py-1 border border-white/10 text-[10px] text-brand-white/60 uppercase tracking-widest font-mono"
