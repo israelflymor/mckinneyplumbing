@@ -128,7 +128,6 @@ import workshopDiagnostics from "@/assets/workshop-diagnostics.jpg";
 import workshopTools from "@/assets/workshop-tools.jpg";
 import workshopProtection from "@/assets/workshop-protection.jpg";
 
-
 export const projects = [
   {
     img: project1,
@@ -148,6 +147,35 @@ export const projects = [
     tag: "Diagnostics",
     caption: "Traced an intermittent CEL to a failing sensor — no guesswork parts swaps.",
   },
+] as const;
+
+// --- Workshop / Tools gallery ---
+// Configurable entries for the About page "Inside the Laboratory" section.
+export const workshopTools = [
+  {
+    img: workshopDiagnostics,
+    title: "Digital Telemetry Suite",
+    system: "System 01",
+    tags: ["Real-time Analysis", "ECU Mapping"],
+  },
+  {
+    img: workshopTools,
+    title: "Artisan Hand-Tools",
+    system: "Precision",
+    tags: ["Micron-level Accuracy"],
+  },
+  {
+    img: workshopProtection,
+    title: "Protective Finish Lab",
+    system: "Defense",
+    tags: ["Coatings & Rust Prevention"],
+  },
+] as const;
+
+export const workshopStats = [
+  { label: "Workshop Standard", value: "ASE-Minded Process" },
+  { label: "Diagnostics", value: "OBD-II + Live Data" },
+  { label: "Specialization", value: "All Makes & Models" },
 ] as const;
 
 // --- Part Finder data (Year/Make/Model) ---
