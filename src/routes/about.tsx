@@ -2,6 +2,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import aboutImg from "@/assets/about-team.jpg";
 import { business } from "@/config/business";
 import { Testimonials } from "@/components/site/Testimonials";
+import { WorkshopGallery } from "@/components/site/WorkshopGallery";
 
 export const Route = createFileRoute("/about")({
   head: () => ({
