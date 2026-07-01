@@ -64,13 +64,6 @@ export function SiteHeader() {
               {l.label}
             </Link>
           ))}
-          <a
-            href={business.phoneHref}
-            onClick={() => trackEvent("phone_click", { source: "header", value: business.phoneDisplay })}
-            className="hidden lg:inline text-[12px] font-mono tracking-[0.2em] uppercase text-brand-white/70 hover:text-brand-sunset transition-colors"
-          >
-            {business.phoneDisplay}
-          </a>
           <Link
             to="/contact"
             onClick={() => trackEvent("cta_click", { source: "header", label: "Book Service" })}
