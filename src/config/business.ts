@@ -100,7 +100,7 @@ export const testimonials = [
     rating: 5,
     quote:
       "Elizabeth walked me through every line of the quote before touching the truck. No surprises, no upsell — just honest work done right the first time.",
-    date: "2025-09-14",
+    date: "2026-04-18",
   },
   {
     name: "Priya S.",
@@ -109,7 +109,7 @@ export const testimonials = [
     rating: 5,
     quote:
       "Chased a check-engine light at two other shops before EG Evans diagnosed it in an hour. Felt like the only customer in the place.",
-    date: "2025-08-02",
+    date: "2025-11-02",
   },
   {
     name: "Marcus T.",
@@ -118,7 +118,7 @@ export const testimonials = [
     rating: 5,
     quote:
       "Brake job came back better than factory. Pickup bay was spotless and they even washed the rims. Concierge-grade is the right word.",
-    date: "2025-06-21",
+    date: "2024-09-21",
   },
 ] as const;
 import project1 from "@/assets/project-1.jpg";
