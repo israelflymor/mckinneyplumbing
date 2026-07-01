@@ -77,7 +77,10 @@ function AboutPage() {
         </div>
       </section>
 
+      <WorkshopGallery />
+
       <Testimonials variant="light" />
+
 
       <section className="py-28 px-6 bg-brand-midnight border-t border-white/10">
         <div className="max-w-3xl mx-auto text-center">
